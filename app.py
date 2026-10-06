@@ -54,7 +54,7 @@ if st.button("Explain Repository"):
                     
                     # Using a lightweight LLaMA model hosted on Groq
                     response = client.chat.completions.create(
-                        model="llama-3.1-8b-instant", # Updated model name
+                        model="openai/gpt-oss-20b", # Updated model name
                         messages=[{"role": "user", "content": system_prompt}]
                     )
                     
