@@ -1,1 +1,3 @@
-echo -e "streamlit\nrequests" > requirements.txt
+streamlit
+gitpython
+groq
